@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #00008B;
+}
+
+body {
+  background-image: linear-gradient(to right, orange , yellow);
+}
+
+div > p {
+  color: #00008B;
+}
+
+input {
+  color: #00008B;
+}
+
+label {
+  color: black;
+  font-weight: 600;
+  border: .1em solid #b19cd9;
+  border-radius: .2em;
+  background-color: #b19cd9;
+}
+
+textarea {
+  width: 70%;
+  height: 5em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "login login login login login"
+    "menu menu menu menu menu"
+    "topping topping topping topping topping"
+    "napkin napkin napkin napkin napkin"
+    "time time time time time"
+    "phone phone phone phone phone"
+    "feedback feedback feedback feedback feedback"
+    "finish finish finish finish finish";
+  gap: 1%;
+}
+
+#login {
+  grid-area: login;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu {
+  grid-area: menu;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#topping {
+  grid-area: topping;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#napkin {
+  grid-area: napkin;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#time {
+  grid-area: time;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#phone-number {
+  grid-area: phone;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#feedback {
+  grid-area: feedback;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#finish {
+  grid-area: finish;
+  margin-left: auto;
+  margin-right: auto;
+}

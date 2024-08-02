@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <form method="get" action="results.html">
+    <div class="grid-container">
+      
+      <div id="login">
+        <h3>Enter your credentials:</h3>
+        <label for="e-mail">Email:</label>
+        <input type="email" id="e-mail" name="e-mail" value="" required>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" value="" required>
+      </div>
+      
+      <div id="menu">
+        <h3>Pick an item:</h3>
+        <input type="radio" id="burger" name="food" value="burger"> 
+        <label for="burger">Burger</label>
+        <input type="radio" id="fries" name="food" value="fries">
+        <label for="fries">Fries</label>
+        <input type="radio" id="milkshake" name="food" value="milkshake">
+        <label for="milkshake">Milkshake</label>
+        <input type="radio" id="burrito" name="food" value="burrito">
+        <label for="burrito">Burrito</label>
+      </div>
+
+      <div id="topping">
+        <h3>Pick the toppings:</h3>
+        <input type="checkbox" id="mild" name="spice" value="mild">
+        <label for="mild">Mild Sauce</label>
+        <input type="checkbox" id="spicy" name="spice" value="spicy">
+        <label for="spicy">Spicy Sauce</label>
+      </div>
+
+      <div id="napkin">
+        <h3>Which color napkin would you like?</h3>
+        <label for="nap-color">Color:</label>
+        <input type="color" id="nap-color" name="nap-color" value="#ff0000">
+      </div>
+      
+      <div id="time">
+        <h3>Decide when you want your meal to arrive:</h3>
+        <label for="hour">Hour:</label>
+        <input type="number" id="hour" name="hour" min="0" max="23">
+        <label for="minute">Minute:</label>
+        <input type="number" id="minute" name="minute" min="0" max="59">
+      </div>
+      
+      <div id="phone-number">
+        <h3>What phone number will be good to reach you?</h3>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </div>
+      
+      <div id="feedback">
+        <h3>Feedback will always be appreciated!</h3>
+        <textarea id="review" name="review"></textarea>
+      </div>
+      
+      <div id="finish">
+        <input type="submit" value="Finish Order">
+        <input type="reset" value="reset order">
+      </div>
+      
+    </div>
+  </form>
+</body>
+
+</html>
